@@ -1,4 +1,4 @@
-# terrain-visualisation
+# Simple Terrain Visualisation
 
 
 test text
