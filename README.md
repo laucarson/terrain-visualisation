@@ -21,7 +21,10 @@ Colormap Customization: Concatenates white with ```ListedColormap``` for intuiti
 Flood Thresholding: ```np.where()``` logic isolates low elevations; NaN handling for non-flood areas and sea/water-bodies.
 Plotting: ```plt.imshow()``` with extent for georeferenced display; GridSpec ready for multi-panel extensions.
 
-!/Results/terrain.png
+<img src="Results/terrain.png" alt="Terrain map" width="1000" height="400">
+
+
+![](/Results/terrain.png)
 
 
 ### Limitations and Extensions
