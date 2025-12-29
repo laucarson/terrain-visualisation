@@ -3,8 +3,8 @@
 This repository contains Python code developed in Google Colab for geospatial analysis of Hong Kong's terrain elevation data and identification of flood-prone areas. The analysis visualizes elevation patterns and highlights low-lying regions vulnerable to flooding at a 6-meter threshold, using public raster datasets.
 ​
 ### Objectives
-The primary goal is to demonstrate terrain mapping and flood risk assessment using open-source Python libraries and Hong Kong's official Digital Terrain Model (DTM) data. Key objectives include loading GeoTIFF elevation files, creating custom colormaps for visualization, and thresholding data to isolate areas below 6 meters.
-​
+The primary goal is to demonstrate terrain mapping and flood risk assessment using open-source Python libraries and Hong Kong's official Digital Terrain Model (DTM) data. Key objectives include loading GeoTIFF elevation files, creating custom colormaps for visualization, and thresholding data to isolate areas below 6 meters.​  
+
 This supports climate risk analytics, urban planning, and sea-level rise studies, aligning with high-resolution DEMs (e.g., 50cm resolution from Lands Department) available via the Hong Kong Geodata Store.
 ​
 ### Usage Steps
