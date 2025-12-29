@@ -13,10 +13,10 @@ This supports climate risk analytics, urban planning, and sea-level rise studies
 3. Outputs: Figures displaying longitude/latitude extent; adjust ```altitude=6``` for different scenarios.
 
 ### Key Code Features
-Raster Reading: ```rasterio.open()``` for metadata (bounds, width/height) and ```read(1)``` for elevation band.​
-Colormap Customization: Concatenates white with ```ListedColormap``` for intuitive sea/terrain rendering.
-Flood Thresholding: ```np.where()``` logic isolates low elevations; NaN handling for non-flood areas and sea/water-bodies.
-Plotting: ```plt.imshow()``` with extent for georeferenced display; GridSpec ready for multi-panel extensions.
+- Raster Reading: ```rasterio.open()``` for metadata (bounds, width/height) and ```read(1)``` for elevation band.​
+- Colormap Customization: Concatenates white with ```ListedColormap``` for intuitive sea/terrain rendering.
+- Flood Thresholding: ```np.where()``` logic isolates low elevations; NaN handling for non-flood areas and sea/water-bodies.
+- Plotting: ```plt.imshow()``` with extent for georeferenced display; GridSpec ready for multi-panel extensions.
 
 ### Results
 ![](/Results/terrain.png)
