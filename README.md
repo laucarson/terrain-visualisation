@@ -10,7 +10,7 @@ This supports climate risk analytics, urban planning, and sea-level rise studies
 ### Usage Steps
 1. Run Terrain Visualization: Loads .tif, extracts elevation matrix, applies custom GnBu colormap (white for missing/sea, green-to-blue for 0-1000m), and plots with bounds, labels, and colorbar.​
 2. Generate Flood Map: Select areas ≤6m (and ≥0m), uses RdBu colormap for binary flood-prone visualization (white=not impacted, blue=with risk of flooding).
-​3. Outputs: Figures displaying longitude/latitude extent; adjust ```altitude=6``` for different scenarios.
+3. Outputs: Figures displaying longitude/latitude extent; adjust ```altitude=6``` for different scenarios.
 
 ### Key Code Features
 Raster Reading: ```rasterio.open()``` for metadata (bounds, width/height) and ```read(1)``` for elevation band.​
@@ -23,10 +23,10 @@ Plotting: ```plt.imshow()``` with extent for georeferenced display; GridSpec rea
 ![](/Results/flood-prone-area.png)
 
 ### Limitations and Extensions
-Assumes single-band elevation GeoTIFF.
-Binary thresholding ignores runoff, drainage; integrate with geopandas for vector overlays.
-For production: Use local paths instead of Drive; add CRS reprojection if needed (```elevation.crs```).
-Future: Adjust sea-level rise scenarios (e.g., +1m) or slope analysis.
+- Assumes single-band elevation GeoTIFF.
+- Binary thresholding ignores runoff, drainage; integrate with geopandas for vector overlays.
+- For production: Use local paths instead of Drive; add CRS reprojection if needed (```elevation.crs```).
+- Future: Adjust sea-level rise scenarios (e.g., +1m) or slope analysis.
 
 ### Attribution
 Attribute data sources: Lands Department (Hong Kong) DTMs.
