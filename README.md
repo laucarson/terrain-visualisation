@@ -20,7 +20,7 @@ Plotting: ```plt.imshow()``` with extent for georeferenced display; GridSpec rea
 
 ### Results
 ![](/Results/terrain.png)
-![](/Results/flood-prone area.png)
+![](/Results/flood-prone-area.png)
 
 ### Limitations and Extensions
 Assumes single-band elevation GeoTIFF.
