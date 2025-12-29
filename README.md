@@ -1,4 +1,4 @@
-# Simple Terrain Visualisationand Flood Risk Analysis
+# Simple Terrain Visualisation and Flood Risk Analysis
 
 This repository contains Python code developed in Google Colab for geospatial analysis of Hong Kong's terrain elevation data and identification of flood-prone areas. The analysis visualizes elevation patterns and highlights low-lying regions vulnerable to flooding at a 6-meter threshold, using public raster datasets.
 ​
